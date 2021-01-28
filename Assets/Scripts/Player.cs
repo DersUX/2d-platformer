@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.Animations;
 using UnityEngine.SceneManagement;
 
+[RequireComponent(typeof(Rigidbody2D))]
+
 public class Player : MonoBehaviour
 {
     private Rigidbody2D _player;
